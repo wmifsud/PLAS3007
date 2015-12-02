@@ -1,4 +1,4 @@
-
+@student
   Feature: Students
     Scenario: Check Student List
       Given I navigate to http://40.127.132.250:8090/listStudents
@@ -21,7 +21,6 @@
       Given I navigate to http://40.127.132.250:8090/listStudents
       Then there are '0' students from 'Belarus'
 
-    @student
     Scenario: Check numbers numeric
       Given I navigate to http://40.127.132.250:8090/listStudents
       Then all mobile numbers are numeric
