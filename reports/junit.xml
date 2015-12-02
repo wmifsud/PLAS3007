@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="17.502347">
+<testcase classname="Students" name="Check belarus students" time="17.502347">
+<system-out><![CDATA[Given I navigate to http://40.127.132.250:8090/listStudents.................passed
+Then all mobile numbers are numeric.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
